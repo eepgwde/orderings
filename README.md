@@ -16,8 +16,8 @@ This is how to get the weak orderings.
 
 ```python
 
-s = "Python syntax highlighting"
+from weaves import POSetOps
 
-print s
+POSetOps.instance().weak_ordering(syms='ABC')
 
 ```
